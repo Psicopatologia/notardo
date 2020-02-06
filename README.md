@@ -3,3 +3,6 @@ La app web permite crear notas y asignarlas a una fecha especifica, si la fecha 
 
 ## Arbol de problema
 ![arbol](https://i.imgur.com/kzUFqCn.png)
+
+## Muckup
+[figma](https://www.figma.com/file/KV6Y3MIU6x9SoO475bncYu/Notardo)
