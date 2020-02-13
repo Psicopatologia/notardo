@@ -21,7 +21,7 @@ Evitar procrastinar logrando así centrarse en los proyectos personales.
 * Especificar una fecha y un horario para la ejecución de cada tarea
 * Monitorear la productividad diaria y el progreso de esta con el paso del tiempo.
 ## Modelo de negocio
-![canva](https://i.imgur.com/surihmg.png)
+![canva](https://i.imgur.com/65vNIRp.png)
 ## Muckup
 [figma](https://www.figma.com/file/KV6Y3MIU6x9SoO475bncYu/Notardo)
 ## Descripción de la aplicación
