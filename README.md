@@ -15,7 +15,7 @@ El proyecto tiene como fin ayudar a las personas a dejar el hábito de procrasti
 
 Las aplicaciones se centran en una u otra función por otro lado notardo busca que en un solo lugar se encuentre tanto la idea del diario como de organizar el tiempo a futuro
 ## Objetivo general
-Evitar procrastinar logrando así centrarse en los proyectos personales.
+Ayudar al usuario a mitigar la procrastinación logrando así centrarse en los proyectos personales.
 ## Objetivos específicos
 * Organizar las ideas para los proyectos del usuario
 * Especificar una fecha y un horario para la ejecución de cada tarea
