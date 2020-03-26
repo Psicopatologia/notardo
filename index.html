@@ -10,7 +10,7 @@
 <body>
     <section id="sectionLogin">
         <div class="imgLogin"></div>
-        <form id="formLogin" method="post" class="formLogin">
+        <form id="forms" method="post" class="forms">
             <h1>Ingresar</h1>
             <div class="inputs">
                 <label for="mail">Correo</label>
@@ -26,7 +26,7 @@
     </section>
     <section id="sectionRegistro">
         <div class="imgRegistro"></div>
-        <form id="formRegistro" method="post" class="formLogin">
+        <form id="formRegistro" method="post" class="forms">
             <h1>Registrarse</h1>
             <div class="inputs">
                 <label for="mail">Correo</label>
@@ -46,6 +46,17 @@
             </div>
             <input type="submit" value="Registrarse">
             <a href="#sectionLogin">ingresar</a>
+        </form>
+    </section>
+    <section id="diario">
+        <form action="post" id="diario" class="forms">
+            <h2>
+                12/03/2020
+            </h2>
+            <div class="inputs">
+                <textarea name="dia" id="textareaDiario" cols="30" rows="20"></textarea>
+            </div>
+            <input type="submit" value="Guardar">
         </form>
     </section>
 </body>
