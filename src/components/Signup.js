@@ -1,5 +1,6 @@
 import React from "react"
 import image from "../img/imgReg.jpg"
+import 'react-calendar/dist/Calendar.css';
 
 function Signup() {
   return (

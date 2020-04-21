@@ -3,25 +3,26 @@ import Navigation from './Navigation';
 import CreateTask from './CreateTask';
 import '../App.css';
 
-class CreateNote extends Component{
+class CreateNote extends Component {
 
-    render(){
-        return(
-            <div >
+    render() {
+        return (
+            <div className="section diario">
                 <Navigation titulo="Notardo"></Navigation>
-                <h2 className="text-black ml-4">Fecha Random</h2>
-                {/* <div className="p-10 campoTexto ">
-                    
-                </div> */}
-                {/* <div className="botonGenerico"></div> */}
-                <input
-                type="text"
-                name="nota"
-                className="form-control campoTexto"
-                ></input>
-                <button type="submit" className="btn btn-primary botonGenerico">
-                    Save
-                </button>
+                <form action="post" id="diario" className="forms">
+                    <h2>Fecha</h2>
+                    <div className="inputs">
+                        <textarea
+                            name="dia"
+                            id="textareaDiario"
+                            cols={30}
+                            rows={15}
+                            defaultValue={""}
+                        />
+                    </div>
+                    <input type="submit" defaultValue="Guardar" />
+                </form>;
+
             </div>
         );
     }

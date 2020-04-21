@@ -1,5 +1,6 @@
 import React from "react"
 import image from "../img/imgLog.jpg"
+import 'react-calendar/dist/Calendar.css';
 
 function Login() {
     return (
