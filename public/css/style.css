@@ -12,26 +12,22 @@ html {
 
 }
 
-section {
+#section {
     height: 100vh;
 }
 
 .imgLogin, .imgRegistro {
     margin: 2%;
     width: 40%;
-    height: 90%;
-    background-size: cover;
-    background-position: center;
+    height: 90vh;
 }
 
-.imgLogin {
-    background-image: url("../img/imgLog.jpg");
+.imgRegistro img, .imgLogin img {
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
 }
-
-.imgRegistro {
-    background-image: url("../img/imgReg.jpg");
-}
-#sectionLogin,#sectionRegistro {
+.sectionLogin,.signup {
     display: flex;
 }
 
@@ -40,7 +36,7 @@ section {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 2em;
+    padding: 0 2em;
     justify-content: center;
     align-items: center;
 }
