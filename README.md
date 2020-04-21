@@ -1,29 +1,68 @@
-# Notardo
-En el mundo moderno se tiene al alcance las herramientas para hacer lo que se quiera, el tiempo para hacer lo que se necesite, pero aun así nos encontramos con metas sin cumplir, acumulación de trabajo, detrás de esto se puede deber a pereza, miedo al fracaso, ideas difusas o mal manejo del tiempo, en este proyecto se busca crear una solución que ayude en los dos últimos aspectos.
-## Tema
-La aplicación está diseñada como una evolución de agenda personal que ayuda al usuario a gestionar su tiempo óptimamente, permitiéndole ingresar datos y relacionarlos con una fecha específica, proporcionándole un medio para anotar situaciones relevantes y organizar sus actividades futuras, añadiendo la posibilidad de mostrarle su productividad diaria.
-## Planteamiento del problema
-La procrastinación y a su lado la mala administración del tiempo son problemas que se ponen en medio de las personas y sus metas, a causa de esto las personas se encuentran realizando lo que deben a última hora o no poder realizarlo en su totalidad
-![arbol](https://i.imgur.com/kzUFqCn.png)
-## Justificación
-El proyecto tiene como fin ayudar a las personas a dejar el hábito de procrastinar, para evitar así la acumulación de proyectos o la entrega apresurada de estos evitando que se termine en su totalidad.
-## Estado del arte
-* HabitNow: Ahora puedes gestionar tus tareas y llevar un seguimiento completo de tus hábitos al mismo tiempo. Solo introduce tu rutina en HabitNow y registra tus progresos cada día
-* BlackNote: bloc de notas
-* Microsoft To Do: Microsoft To Do es un app de tareas y listas que te ayudará con tu organización diaria de tu vida
-* Diario: es una aplicación de diario, diario y notas multiplataforma
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Las aplicaciones se centran en una u otra función por otro lado notardo busca que en un solo lugar se encuentre tanto la idea del diario como de organizar el tiempo a futuro
-## Objetivo general
-Ayudar al usuario a mitigar la procrastinación logrando así centrarse en los proyectos personales.
-## Objetivos específicos
-* Organizar las ideas para los proyectos del usuario
-* Especificar una fecha y un horario para la ejecución de cada tarea
-* Monitorear la productividad diaria y el progreso de esta con el paso del tiempo.
-## Modelo de negocio
-![canva](https://i.imgur.com/65vNIRp.png)
-## Muckup
-[figma](https://www.figma.com/file/KV6Y3MIU6x9SoO475bncYu/Notardo)
-## Descripción de la aplicación
-El usuario podrá crear una cuenta, se guardará la informacion básica del usuario y sus notas respecto a fechas pasadas o sus planes para fechas futuras, su agenda o lista de que haceres.
-Por medio de alarmas se le notificará al usuario sus actividades próximas y el horario especificado para hacerlas, evitando así que este las olvide, además que podrá monitorear su índice de productividad diaria sabiendo así que días ha cumplido todas las metas propuestas y en cuales no.
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
