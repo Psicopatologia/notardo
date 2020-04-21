@@ -5,6 +5,7 @@ import './App.css';
 import Home from "./components/Home"
 import Signup from "./components/Signup"
 import Login from "./components/Login"
+import Calendar from "./components/Calendar"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/" component={Home} exact />
       <Route path="/signup" component={Signup} exact />
       <Route path="/login" component={Login} exact />
+      <Route path="/calendar" component={Calendar} exact />
       
       <Route component={Error} />
     </Switch>
