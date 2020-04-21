@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import Navigation from './Navigation';
 
 class Calendarc extends Component {
     state = {
@@ -12,6 +13,7 @@ class Calendarc extends Component {
     render() {
       return (
         <div>
+        <Navigation titulo="Notardo"></Navigation>
           <Calendar
             onChange={this.onChange}
             value={this.state.date}
