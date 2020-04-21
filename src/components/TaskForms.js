@@ -42,7 +42,7 @@ class TaskForms extends Component{
                         name="title"
                         className="form-control"
                         value={this.state.title}
-                        onChange={this.handleInputChange}                      
+                        onChange={this.handleInputChange}
                         placeholder="title"
                         />
                     </div>
@@ -64,7 +64,7 @@ class TaskForms extends Component{
                         name="Description"
                         className="form-control"
                         value={this.state.Description}
-                        onChange={this.handleInputChange}                        
+                        onChange={this.handleInputChange}
                         placeholder="Description"
                         />
                     </div>
@@ -74,7 +74,7 @@ class TaskForms extends Component{
                         name="Date"
                         className="form-control"
                         value={this.state.Date}
-                        onChange={this.handleInputChange}         
+                        onChange={this.handleInputChange}
                         placeholder="Date"
                         />
                     </div>
