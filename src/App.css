@@ -12,6 +12,27 @@ html {
 
 }
 
+.main-nav {
+  background-color: #7F78D2;
+  padding: .7em;
+  margin-bottom: .5em;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 .5em .1em;
+}
+.main-nav a {
+  color: white;
+}
+
+.main-nav a:hover {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.main-nav .banner {
+  font-size: 1.5em;
+}
+
+
 #section {
     height: 100vh;
 }
