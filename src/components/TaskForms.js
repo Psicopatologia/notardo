@@ -4,10 +4,10 @@ class TaskForms extends Component{
     constructor(){
         super();
         this.state={
-            title: "",
-            Priority: "low",
-            Description:"",
-            Date:""
+            title: '',
+            Priority: 'low',
+            Description:'',
+            Date:''
         };
         this.handleInputChange=this.handleInputChange.bind(this);
         this.handleSubmit=this.handleSubmit.bind(this);
@@ -17,10 +17,10 @@ class TaskForms extends Component{
         e.preventDefault();
         this.props.onAddTask(this.state);
         this.setState({
-            title: "",
-            Priority: "low",
-            Description:"",
-            Date:""
+            title: '',
+            Priority: 'low',
+            Description:'',
+            Date:''
         });
     }
 
@@ -43,14 +43,14 @@ class TaskForms extends Component{
                         className="form-control"
                         value={this.state.title}
                         onChange={this.handleInputChange}                      
-                        placeholder="Title"
+                        placeholder="title"
                         />
                     </div>
                     <div className="form-group">
                         <select
-                        name="priority"
+                        name="Priority"
                         className="form-control"
-                        value={this.state.priority}
+                        value={this.state.Priority}
                         onChange={this.handleInputChange}
                         >
                             <option>low</option>
@@ -61,9 +61,9 @@ class TaskForms extends Component{
                     <div className="form-group">
                         <input
                         type="text"
-                        name="description"
+                        name="Description"
                         className="form-control"
-                        value={this.state.description}
+                        value={this.state.Description}
                         onChange={this.handleInputChange}                        
                         placeholder="Description"
                         />
@@ -71,16 +71,16 @@ class TaskForms extends Component{
                     <div className="form-group">
                         <input
                         type="text"
-                        name="date"
+                        name="Date"
                         className="form-control"
-                        value={this.state.date}
+                        value={this.state.Date}
                         onChange={this.handleInputChange}         
                         placeholder="Date"
                         />
                     </div>
-                    <buttom type="submit" className="btn btn-primary">
+                    <button type="submit" className="btn btn-primary">
                         Save
-                    </buttom>
+                    </button>
                 </form>
             </div>
         )
