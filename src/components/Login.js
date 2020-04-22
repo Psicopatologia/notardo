@@ -18,7 +18,11 @@ function Login() {
                     <label htmlFor="pass">Contraseña</label>
                     <input type="password" name="pass" id="pass" />
                 </div>
-                <input type="submit" defaultValue="Ingresar" />
+                {/* <input type="submit" defaultValue="Ingresar"></input> */}
+                <button className="btn btn-primary">
+                <a type="submit" href="/calendar" className="text-white text-center text-decoration-none">Ingresar</a>
+                </button>
+                
                 <a href="/signup">Registrarse</a>
             </form>
         </div>

@@ -1,5 +1,5 @@
 {
-    "Tasks": [
+    "Notes": [
         {
             "title": "Task 1",
             "Priority": "low",
@@ -19,5 +19,4 @@
             "Date":"2020-04-20"
         }
     ]
-    
 }
