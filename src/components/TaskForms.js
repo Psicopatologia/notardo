@@ -74,7 +74,7 @@ class TaskForms extends Component{
                         name="Date"
                         className="form-control"
                         value={this.state.Date}
-                        onChange={this.handleInputChange}         
+                        onChange={this.handleInputChange}
                         placeholder="Date"
                         />
                     </div>

@@ -30,7 +30,7 @@ class CreateTask extends Component{
   render(){
     const Tasks=this.state.Tasks.map((task, i)=>{
       return(
-        <div className="col-md-4" key={i}>
+        <div id={i} className="col-md-4" key={i}>
           <div className="card mt-4">
             <div className='card-title text-center'>
               <h3>{task.title}</h3>
