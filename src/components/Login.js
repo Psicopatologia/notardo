@@ -19,7 +19,7 @@ function Login() {
                     <input type="password" name="pass" id="pass" />
                 </div>
                 {/* <input type="submit" defaultValue="Ingresar"></input> */}
-                <button className="btn btn-primary">
+                <button className="btn botonGenerico">
                 <a type="submit" href="/calendar" className="text-white text-center text-decoration-none">Ingresar</a>
                 </button>
                 

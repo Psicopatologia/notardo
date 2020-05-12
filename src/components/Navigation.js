@@ -7,7 +7,7 @@ class Navigation extends Component {
         return (
             <nav className="main-nav">
                 <div className="banner">
-                    <a href="/">
+                    <a href="/calendar">
                         {this.props.titulo}
                     </a>
                 </div>

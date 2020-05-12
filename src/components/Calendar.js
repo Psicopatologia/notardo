@@ -14,17 +14,17 @@ class Calendarc extends Component {
       return (
         <div>
         <Navigation titulo="Notardo"><a>Hola</a></Navigation>
-          <Calendar
+          <Calendar className="calendario"
             onChange={this.onChange}
             value={this.state.date}
           />
           {/* Temporal-inicio */}
-          <div>
-          <button className="btn btn-primary mt-3">
+          <div className="contenedor-botonesG">
+          <button className="btn botonGenerico mt-3">
             <a className="text-white text-decoration-none" href="/CreateTask">Tabla de tareas</a>
           </button>
 
-          <button className="btn btn-primary mt-3 ml-5">
+          <button className="btn botonGenerico mt-3 ml-5">
             <a className="text-white text-decoration-none" href="/CreateNote">Tabla de notas</a>
           </button>
           </div>
